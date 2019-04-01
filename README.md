@@ -1,9 +1,9 @@
 # ParkingLot
-Create and Manage parking lots.
+Create and Manage car parking lots.
 
-#Pre requisites
-#####Java
-#####Gradle
+# Pre requisites 
+ Java \
+ Gradle
 
 # Build application
 #### If you installed gradle
