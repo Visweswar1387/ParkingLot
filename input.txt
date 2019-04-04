@@ -1,8 +1,9 @@
 create_parking_lot 4
 park KA-01-HH-1234 White
+registration_numbers_for_cars_with_colour White
 park KA-01-HH-9999 White
+park KA-01-HH-9999 blue
 park KA-01-BB-0001 Black
-park KA-01-HH-7777 Red
 leave 4
 park KA-01-HH-2701 Orange
 park KA-01-HH-3141 Brown
@@ -12,10 +13,10 @@ leave 1
 park KA-01-P-333 Yellow
 leave 4
 status
-park KA-01-P-333 Red
+park KA-01-P-333 White
 park DL-12-AA-9999 White
 status
 registration_numbers_for_cars_with_colour White
 slot_numbers_for_cars_with_colour White
-slot_number_for_registration_number KA-01-HH-1234
+slot_number_for_registration_number KA-01-P-333
 slot_number_for_registration_number MH-04-AY-1111

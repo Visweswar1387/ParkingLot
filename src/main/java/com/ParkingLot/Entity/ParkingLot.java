@@ -1,4 +1,4 @@
-package com.ParkingLot;
+package com.ParkingLot.Entity;
 
 public class ParkingLot {
     private int lotNumber;
@@ -28,5 +28,19 @@ public class ParkingLot {
     public void leaveVehicle() {
         this.isLotEmpty=true;
         this.vehicle=null;
+    }
+
+    public String getVehicleRegistrationNumber() {
+        if(this.getIsLotEmpty()) {
+            return "No car Parked In lot " + this.lotNumber;
+        }
+        return this.vehicle.getRegistrationNumber();
+    }
+
+    public String getVehicleColour() {
+        if(this.getIsLotEmpty()) {
+            return "No car Parked In lot " + this.lotNumber;
+        }
+        return this.vehicle.getColour();
     }
 }

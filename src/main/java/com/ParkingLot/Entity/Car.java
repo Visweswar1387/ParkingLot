@@ -1,4 +1,4 @@
-package com.ParkingLot;
+package com.ParkingLot.Entity;
 
 import com.ParkingLot.Exceptions.InvalidCarDataException;
 
