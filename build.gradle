@@ -1,5 +1,6 @@
 apply plugin: 'java'
 apply plugin: 'application'
+apply plugin: 'jacoco'
 
 repositories {
     jcenter()
@@ -9,4 +10,9 @@ dependencies {
     testCompile 'junit:junit:4.12'
 }
 
+jacocoTestReport {
+    reports {
+        html.enabled true
+    }
+}
 mainClassName = "com.ParkingLot.Application"

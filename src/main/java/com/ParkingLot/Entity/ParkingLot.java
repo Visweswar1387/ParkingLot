@@ -1,9 +1,9 @@
-package com.ParkingLot.Entity;
+package com.ParkingLot;
 
 public class ParkingLot {
     private int lotNumber;
     private boolean isLotEmpty=true;
-    private Car car;
+    private Vehicle vehicle;
     public ParkingLot(int lotNumber) {
         this.lotNumber=lotNumber;
     }
@@ -16,17 +16,17 @@ public class ParkingLot {
         return isLotEmpty;
     }
 
-    public Car getCar() {
-        return car;
+    public Vehicle getVehicle() {
+        return vehicle;
     }
 
-    public void parkCar(Car car) {
-        this.car=car;
+    public void parkVehicle(Vehicle vehicle) {
+        this.vehicle=vehicle;
         this.isLotEmpty=false;
     }
 
-    public void setIsLotEmpty() {
+    public void leaveVehicle() {
         this.isLotEmpty=true;
-        this.car=null;
+        this.vehicle=null;
     }
 }

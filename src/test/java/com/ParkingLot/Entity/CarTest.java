@@ -10,7 +10,7 @@ public class CarTest {
     public void should_Test_Create_Car_With_Registration_Number_And_Colour() throws InvalidCarDataException {
         String regNo = "1234";
         String colour = "Blue";
-        Car car = new Car(regNo, colour);
+        Vehicle car = new Car(regNo, colour);
         Assert.assertEquals(car.getRegistrationNumber(), regNo);
         Assert.assertEquals(car.getColour(), colour);
 

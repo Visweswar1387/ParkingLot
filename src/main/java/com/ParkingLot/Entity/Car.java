@@ -1,8 +1,8 @@
-package com.ParkingLot.Entity;
+package com.ParkingLot;
 
 import com.ParkingLot.Exceptions.InvalidCarDataException;
 
-public class Car {
+public class Car extends Vehicle {
     private String registrationNumber;
     private String colour;
     public Car(String regNo, String colour) throws InvalidCarDataException {
